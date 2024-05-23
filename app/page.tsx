@@ -1,10 +1,11 @@
 import Link from "next/link";
 
-import { concert } from "./layout";
-
 import Image from "next/image"
 import TrumpLogo from "@/public/smoke-scaled-1.webp"
 import { cn } from "@/utils/cn";
+
+import { Concert_One } from "next/font/google";
+export const concert = Concert_One({weight: ["400"], subsets: ["latin"]})
 
 export default function Home() {
   return (

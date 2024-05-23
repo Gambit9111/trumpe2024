@@ -1,4 +1,4 @@
-import { concert } from "@/app/layout"
+import { concert } from "@/app/page"
 import { cn } from "@/utils/cn"
 import Link from "next/link"
 

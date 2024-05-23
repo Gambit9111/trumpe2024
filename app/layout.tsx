@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
 import { Rammetto_One } from "next/font/google";
-import { Concert_One } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 
 const rameto = Rammetto_One({weight: ["400"], subsets: ["latin"]})
-export const concert = Concert_One({weight: ["400"], subsets: ["latin"]})
 
 export const metadata: Metadata = {
   title: "Create Next App",
